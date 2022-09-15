@@ -32,6 +32,6 @@
             <input Type="submit" value="Sign up"><br>
         </form>
     <p>Already have an account?</p>
-    <a href=logInPage.jsp>LogIn</a>
+    <a href=index.jsp>LogIn</a>
     </body>
 </html>
