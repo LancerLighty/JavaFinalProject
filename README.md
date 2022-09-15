@@ -1,4 +1,4 @@
-# Website
+# WebApp
 ##  Description
 **On this website you can:**
 - create an account(Sign Up)
