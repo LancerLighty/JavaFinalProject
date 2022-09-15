@@ -3,5 +3,5 @@
 **On this website you can:**
 - create an account(Sign Up)
 - Log in into your account
-- Sign out
+- Log out
 - Update your account information.
