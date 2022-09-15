@@ -2,7 +2,6 @@ package com.example.finaltask;
 
 import javax.servlet.annotation.WebServlet;
 import java.sql.*;
-import java.util.ArrayList;
 
 @WebServlet(name = "MySQL", value = "/MySQL")
 public class MySQL {
@@ -30,6 +29,7 @@ public class MySQL {
         }
         return info;
     }
+
     public void insertInfo(String a, String b, String c, String d, String e, String f, String g) throws SQLException, ClassNotFoundException {
         Class.forName("com.mysql.cj.jdbc.Driver");
         try{
