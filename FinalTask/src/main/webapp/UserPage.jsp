@@ -11,7 +11,7 @@
     <title>User Page</title>
     </head>
     <body>
-            <h2>Welcome <%=request.getAttribute("username")%></h2><br><br>
+            <h2>Welcome <%=request.getAttribute("username")%></h2>
             <p>Id: <%=request.getAttribute("id")%></p>
             <p>Name: <%=request.getAttribute("name")%></p>
             <p>Surname: <%=request.getAttribute("surname")%></p>
