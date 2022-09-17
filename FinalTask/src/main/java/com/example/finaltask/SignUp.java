@@ -20,7 +20,7 @@ public class SignUp extends HttpServlet {
         String password = request.getParameter("password");
         String repeatPass = request.getParameter("repeatPass");
         String profession = request.getParameter("profession");
-        if(profession == null || profession == "required")
+        if(profession == null || profession.equals("required"))
             profession = "none";
         MySQL mysql = new MySQL();
         try {
